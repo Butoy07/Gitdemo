@@ -18,6 +18,8 @@ public class APItest {
 	@Test
 	public void deletetwitter() {
 		System.out.println("deletetwitter");
+		System.out.println("deletetwitter1");
+		System.out.println("deletetwitter2");
 		
 	}
 }
