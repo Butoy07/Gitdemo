@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.468 s <<< FAILURE! - in TestSuite
+qaclickacademy.APItest.postjira  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/openqa/selenium/HasAuthentication
+	at qaclickacademy.APItest.postjira(APItest.java:12)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.HasAuthentication
+	at qaclickacademy.APItest.postjira(APItest.java:12)
+
