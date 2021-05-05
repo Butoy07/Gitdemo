@@ -13,6 +13,7 @@ public class Seleniumtest {
 	@Test
 	public void elementUI() {
 		System.out.println("elementUI");
+		System.out.println("Webautomation");
 		
 	}
 }
