@@ -1,18 +1,16 @@
 package qaclickacademy;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+
 import org.testng.annotations.Test;
 
 public class APItest {
 
 	@Test
 	public void postjira() {
-		System.setProperty("webdriver.chrome.driver", "/Users/marksaniano/Documents/Automation_Java/chromedriver/");
-		WebDriver driver = new ChromeDriver();
-		
-		driver.get("https://www.facebook.com/");
+
 		System.out.println("postjira");
+		System.out.println("postjira2");
+		System.out.println("postjira3");
 	}
 	@Test
 	public void deletetwitter() {
